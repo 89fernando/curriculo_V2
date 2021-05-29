@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background: #222;
+    color: #fff;
+    font-size: 40px;
+}
+
+.left {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.right {
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.break {
+    clear: both;
+}
+
+.positions {
+    margin-top: 30px;
+    background: #ccc;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.positions p {
+    width: 60px;
+}
+
+.positions .relative {
+    position: relative;
+    left: 40px;
+}
+
+.positions .absolute {
+    position: absolute;
+    top: 0;
+    color: red;
+}
+
+.card-perfil {
+    background: #bc5c39;
+    height: 100vh;
+    width: 300px;
+    padding-top: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.card-foto {
+    width: 140px;
+    height: 140px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.card-foto img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.card-perfil ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.card-perfil ul li {
+    margin-top: 25px;
+}
+
+.card-perfil ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-weight: bold;
+    color: #ccc
+}
+
+.card-perfil ul li a.ativo, .card-perfil ul li a:hover {
+    color: #fff;
+}
+
+.card-info {
+    height: 100vh;
+    float: left;
+    padding-top: 150px;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+
+.card-info h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    color: #222;
+    font-family: 'Arial';
+}
+
+.texto-laranja {
+    color: #bc5c39;
+}
+
+.card-info h2 {
+    text-transform: uppercase;
+    font-family: 'Arial';
+    color: #777;
+    margin-top: 10px;
+}
+
+.card-info p {
+    margin-top: 60px;
+    font-family: 'Arial';
+    color: #999;
+}
+
+.redes-socias {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.redes-socias li {
+    float: left;
+    margin-right: 20px;    
+}
+
+.redes-socias li a {
+    color: #777;
+    font-size: 40px;
+}
+
+.boasvindas {
+    text-transform: uppercase;
+    font-family: 'Arial';
+    color: #777;
+    margin-top: 10px;
+}
